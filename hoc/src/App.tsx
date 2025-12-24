@@ -1,7 +1,10 @@
+import UseWithLoading from "./components/UseWithLoading/UseWithLoading"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <UseWithLoading />
+    </div>
   )
 }
 
