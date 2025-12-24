@@ -10,7 +10,7 @@ const UserList = ({ users }: UserListTypes) => {
                 <h2 className="text-[30px] font-bold mb-5">Users</h2>
                 <ul className="flex flex-col gap-2.5 w-full">
                     {users.map((user) => (
-                        <li className="p-3 bg-blue-200 rounded-lg" key={user}>{user}</li>
+                        <li className="p-3 bg-gray-400 rounded-lg" key={user}>{user}</li>
                     ))}
                 </ul>
             </div>

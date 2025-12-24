@@ -10,7 +10,7 @@ const ProductList = ({ products }: ProductListTypes) => {
                 <h2 className="text-[30px] font-bold mb-5">Products</h2>
                 <ul className="flex flex-col gap-2.5 w-full">
                     {products.map((product) => (
-                        <li className="p-3 bg-blue-200 rounded-lg" key={product}>{product}</li>
+                        <li className="p-3 bg-gray-400 rounded-lg" key={product}>{product}</li>
                     ))}
                 </ul>
             </div>
